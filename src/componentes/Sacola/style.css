@@ -1,0 +1,142 @@
+.container-sacola {
+    width: 312px;
+    max-height: 537px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.20);
+    position: fixed;
+    padding-bottom: 10px;
+}
+ 
+.titulo-sacola {
+    max-width: 312px;
+    height: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lilas-sacola);
+    color: var(--cor-texto);
+    margin-bottom: 10px;
+}
+
+.conteudo-sacola {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-texto);
+}
+
+.conteudo-sacola h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.conteudo-sacola h3 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.ilustracao-sacola {
+    margin: 1rem 0;
+}
+.input-cupom-sacola {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.span-cupom-sacola {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cor-texto);
+    margin-bottom: 0.5rem;
+}
+
+.input-cupom-sacola input {
+    cursor: pointer;
+    max-width: 280px;
+    height: 40px;
+    padding: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-texto);
+    background-color: var(--cor-bg-input);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.input-mais-icon {
+    cursor: pointer;
+    padding: 0 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-bg-input);
+}
+
+.sacola-vazia {
+    text-align: center;
+}
+
+.sacola-com-itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.filme-na-sacola {
+    width: 280px;
+    height: 88px;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filme-na-sacola img {
+    width: 53px;
+    height: 77px;
+}
+
+.informacoes-filme-sacola {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor-texto);
+    margin-right: auto;
+}
+
+.botoes-sacola {
+    display: flex;
+    gap: 1rem;
+}
+
+.botoes-sacola svg {
+    cursor: pointer;
+}
+
+.button-confirmar-compra {
+    max-width: 280px;
+    height: 56px;
+    background-color: var(--rosa);
+    display: grid;
+    place-content: center;
+    padding: 16px 10px;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+
+
+

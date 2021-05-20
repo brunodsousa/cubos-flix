@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Quantico&display=swap');
+
+* {
+  --azul-escuro: #0F1C26;
+  --cinza-escuro: #171B1E;
+  --cor-background: #1D2226;
+  --cor-escura-texto: #0F0915;
+  --cor-bg-input: #0B1217;
+  --lilas-sacola: #A785ED;
+  --lilas-texto-sacola: #EEE5FF;
+  --cor-texto: #FDFDFD;
+  --cor-texto-avaliacao: #FBCD6E;
+  --rosa: #E183C8;
+  --rosa-botao-sacola: #E25EBF;
+}
+
+.App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "header header" "main sacola";
+  gap: 1.5rem 3.12rem;
+  background-color: var(--cor-background);
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+  padding-left: 6rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.sacola {
+  grid-area: sacola;
+  margin-right: 6rem;
+}
+
+.top-filmes {
+  margin-bottom: 2.5rem;
+}
+
+.top-filmes h2, .filmes h2 {
+  color: var(--cor-texto);
+  margin-bottom: 1rem;
+}
+
+.filmes-grid {
+  max-width: 937px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+  gap: 24px;
+}
+

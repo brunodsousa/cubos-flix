@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.div-filtros {
+    max-width: 936px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+   
+}
+
+button.filtro {
+    width: 168px;
+    height: 38px;
+    border:2px solid #45494B;
+    color:#45494B;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button.filtro:hover {
+    border: 2px solid #E183C8;
+    color: #E183C8;
+}
+
+.filtro.botao-ativo {
+    border: 2px solid #E183C8;
+    color: #E183C8;
+    background-color: rgba(255, 131, 200, 0.20);
+}

@@ -1,0 +1,21 @@
+.input-busca {
+    all: unset;
+    max-width: 456px;
+    min-height: 46px;
+    background-color: var(--cinza-escuro);
+    color: var(--cor-texto);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: start;
+    padding: 0 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: var(--cinza-escuro);
+}
+
+    

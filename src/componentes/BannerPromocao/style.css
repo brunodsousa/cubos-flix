@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Quantico&display=swap');
+
+.container-bannerPromo {
+    cursor: pointer;
+    max-width: 936px;
+    height: 119px;
+    font-family: 'Quantico', sans-serif;
+    padding: 23px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    background-image: url('../../assets/images/bg-promotion.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--cor-escura-texto);
+    margin-bottom: 1rem;
+}
+
+.titulo-mais-cupom {
+    max-width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.div-cupom {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+}
+
+.titulo-mais-cupom h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.ilustracao-banner {
+    position: absolute;
+    right: 2rem;
+    bottom: 2px;
+}
+
+
+

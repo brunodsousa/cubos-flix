@@ -1,0 +1,26 @@
+.header {
+    background-color: var(--azul-escuro);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.favoritos, .promocoes, .welcome-user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 10px;
+}
+
+.header a, .welcome-user span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+.welcome-user img {
+    width: 56px;
+    height: 56px;
+}
